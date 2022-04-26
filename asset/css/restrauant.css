@@ -1,0 +1,531 @@
+*{
+    font-family: Sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    color: black;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+#menu-list ul{
+    padding: 20px;
+}
+#menu-list ul li{
+    display: inline;
+    padding: 20px;
+}
+#menu-list ul li a:hover{
+    font-size: 20px;
+    color: white;
+}
+.navi h2{
+    
+    margin-top: 10px;
+    height: 26px;
+    padding: 4px 20px 8px 20px;
+    color: white;
+    background-color: rgb(120, 135, 167);
+    border-radius: 20px;
+    border-style: none;
+}
+.navi h2:hover{
+    color: black;
+}
+#menu-icn,#res-list{
+    display: none;
+}
+/* navi bar end */
+
+
+.main{
+    position: relative;
+    top: 60px;
+}
+.main-text{
+    width: 50%;
+    position: relative;
+    bottom: 550px;
+    left: 700px;
+     
+}
+.main-text h1{
+    font-size: 100px;
+}
+.main-text p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* main section end */
+
+.card{
+    margin-top: -340px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* card section end */
+
+.breakfast{
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(246, 240, 246);
+}
+.textbox{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    line-height: 30px;
+    padding: 25px;
+    position: relative;
+    left: 20%;
+    bottom: 220px;
+
+}
+.break1{
+    position: relative;
+    left: 60%;
+    bottom: 220px;
+}
+.break2{
+    position: relative;
+    top: 140px;
+    left: 25%;
+}
+.textbox button{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 23px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+}
+button:hover{
+    background-color: gray;
+}
+
+/* breakfast over */
+
+.background{
+    background-image: url("../images/card/background1.jpg");
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    gap: 60px 60px;
+    position: relative;
+    left: 200px;
+    top:240px;
+}
+.menu1
+{
+    border:1px solid black;
+    background-color: rgb(56, 46, 46);
+    padding: 40px 20px 0 20px;
+    color: white;
+    height: 200px;
+    width: 25%;
+}
+.menu1 p{
+    line-height: 25px;
+}
+.menu h4 a{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.menu1 h4:hover a{
+    color: red;
+}
+
+
+.deliveryitem{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(246, 240, 246);
+}
+#num{
+    border-radius: 50%;
+    width: 150px;
+    height: 300px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+.circle{
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+   
+}
+.rectangular{
+    width:80%;
+    height: 450px;
+    background-color: red;
+    margin-top: 200px;
+    float: right;
+}
+.delivery-services{
+    width: 800px;
+    position: relative;
+    bottom: 650px;
+    left: 350px;
+}
+.delivery-text{
+    width: 350px;
+    height: 280px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    bottom: 850px;
+    left: 850px;
+    padding: 35px;
+    line-height: 30px;
+}
+.delivery-text p{
+    padding-top: 20px;
+    line-height: 35px;
+}
+.delivery-text button{
+    margin-top: 30px;
+}
+
+.burgers{
+    background-color: black;
+    
+    width: 600px;
+    padding: 50px;
+    height: 158px;
+}
+.burgers h2{
+    padding-top: 15px;
+}
+.burgers button{
+    margin-top: 20px;
+}
+.burger-img{
+    margin-left: 290px;
+    margin-top: -185px;
+}
+.burger{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    gap: 20px 20px;
+}
+button {
+    cursor: pointer;
+}
+.subscribe{
+    margin-top: 50px;
+    background-color: black;
+    width: 100%;
+    height: 460px;
+}
+.rec-shape{
+    width: 22%;
+    height: 460px;
+    background-color: rgb(207, 34, 34);
+    position: relative;
+    left: 350px;
+}
+
+
+.subimg{
+    position: relative;
+    right: 210px;
+    top: 60px;
+    
+}
+.sub-box{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    position: relative;
+    bottom: 350px;
+    color: wheat;
+    left: 50%;
+}
+.sub-text{
+    line-height: 40px;
+}
+.address{
+    line-height: 25px;
+    margin-top: 25px;
+}
+input[type=text]{
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid rgb(199, 173, 173);
+}
+input[type=submit]{
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: white;
+    background-color: red;
+}
+.address1{
+    line-height: 30px;
+}
+.address1 #fa{
+    padding:10px 0 0 15px;
+    margin-right:  10px;
+    color: white;
+}
+.address1 #fa:hover{
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 768px){
+    .navi{
+        width: 100%;
+    }
+    #lgo{
+        margin-right: 250px;
+    }
+    #menu-list,.navi h2 {
+        display: none;
+    }
+    #menu-icn,#res-list{
+        display:block;
+    }
+    #menu-icn{
+        padding-top: 13px;
+    }
+    /* navi bar end */
+    
+    #res-list{
+        background-color: rgb(165, 150, 180);
+        width: 500px;
+        position: relative;
+        top: 70px;
+    }
+    #res-list li{
+        padding: 20px;
+    }
+    .main{
+        position: relative;
+        top: 80px;
+    }
+    .main-text{
+        width: 80%;
+        position: relative;
+        bottom: 420px;
+        left: 40px;
+         
+    }
+    .main-text h1{
+        font-size: 40px;
+    }
+    .main-text p{
+        font-size: 20px;
+    }
+    
+    /* main section end */
+    
+    .card{
+        margin-top: -260px;
+        width: 500px;
+    }
+    
+    /* card section end */
+    
+    .breakfast{
+        margin-top: 20px;
+        width: 500px;
+        height: 470px;
+        background-color: thistle;
+    }
+    .textbox{
+        width: 40%;
+        height: 200px;
+        font-size: 12px;
+        padding: 20px;
+        position: relative;
+        left: 10px;
+        bottom: 230px;
+    
+    }
+    .break1{
+        position: relative;
+        left: 290px;
+        bottom: 0px;
+    }
+    .break2{
+        width: 50%;
+        position: relative;
+        top:-120px;
+        margin-right: 200px;
+        
+    }
+    .textbox button{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    button{
+        border-radius: 13px;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        padding: 5px;
+        border: none;
+    }
+    button:hover{
+        background-color: gray;
+    }
+    
+    /* breakfast over */
+    
+    .background{
+        width: 500px;
+        height: 850px;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px 0px;
+        position: relative;
+        left: 0px;
+        top:40px;
+    }
+    .menu1
+    {
+        padding: 40px 20px 0 20px;
+        color: white;
+        height: 330px;
+        width: 23%;
+    }
+    .deliveryitem{
+        margin-top: 25px;
+        height: 550px;
+        width: 500px;
+        background-color: thistle;
+    }
+    #num{
+        border-radius: 50%;
+        width: 150px;
+        height: 300px;
+        padding: 15px;
+        background-color: red;
+        color: white;
+    }
+    .circle{
+        display: none;
+    }
+    .rectangular{
+        display: none;
+    }
+    .delivery-services{
+        width: 500px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+    .delivery-text{
+        width: 350px;
+        height: 200px;
+        font-size: 5px;
+        position: relative;
+        bottom: 100px;
+        left: 45px;
+        padding: 30px;
+        border: none;
+    }
+    .burgers{
+        width: 430px;
+        padding-left: 110px;
+        height: 80px;
+    }
+    .burger-img{
+        width: 250px;
+        margin-left: 230px;
+        margin-top: -140px;
+    }
+    .burger{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px 20px;
+    }
+    .burgers button{
+        margin-left: 40px;
+    }
+    button {
+        cursor: pointer;
+    }
+    /* subcribe start */
+    .subscribe{
+        margin-top: 50px;
+        background-color: white;
+        width: 100%;
+        height: 460px;
+    }
+    .rec-shape{
+        width: 22%;
+        height: 460px;
+        background-color: white;
+        position: relative;
+        left: 20px;
+    }
+    .subimg{
+        position: relative;
+        right: 150px;
+        top: 0px;
+        
+    }
+    .sub-box{
+        display: inline;
+        width: 700px;
+        position: relative;
+        bottom: 400px;
+        right: 500px;
+        color: black;
+        
+    }
+    input[type=text]{
+        border: none;
+        padding: 15px;
+        color: white;
+        background-color: black;
+        border-bottom: 2px solid rgb(199, 173, 173);
+    }
+    
+   
+}
